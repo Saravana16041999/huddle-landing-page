@@ -1,6 +1,6 @@
 @media screen and (max-width: 425px){
     .head {
-        width: 375px;
+        width: auto;
         margin: 0px;
     }
     .nav-bar{
@@ -30,14 +30,14 @@
     }
 
     .heding_container {
-        width: 375px;
+        width: auto;
         display: flex;
         flex-direction: column;
         font-size: 12px;
         margin: 0px;
     }
     .head_content {
-        width: 375px;
+        width: auto;
         margin: 0px;
     }
     .head_content h1{
