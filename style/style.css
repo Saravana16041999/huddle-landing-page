@@ -7,6 +7,9 @@ body{
     /*  others -> font-family: 'Open Sans', sans-serif; */
     /* head -> font-family: 'Poppins', sans-serif; */
 }
+.head {
+    width: 1440px;
+}
 .nav-bar{
     background-color: hsl(193, 100%, 96%);
 }
