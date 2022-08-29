@@ -175,6 +175,8 @@ position: relative;
 .box_para {
     font-size: 25px;
     margin-bottom: 15px;
+    font-weight: bold;
+    color: rgba(9, 9, 9, 0.773);
 }
 .box-modul button {
     margin-top: 10px;
@@ -192,6 +194,7 @@ position: relative;
     background-color: hsl(192, 100%, 9%);
     display: flex;
     width: auto;
+    font-family: 'Open Sans', sans-serif;
 }
 .left_side {
     margin-top: 180px;
