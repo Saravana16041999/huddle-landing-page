@@ -1,6 +1,6 @@
-@media screen and (max-width: 425px){
+@media screen and (max-width: 375px){
     .head {
-        width: auto;
+        width: 375px;
         margin: 0px;
     }
     .nav-bar{
@@ -27,13 +27,14 @@
         width: 100px;
         height: 15px;
         margin-left: 35px;
+        margin-bottom: 30px;
     }
 
     .heding_container {
         width: auto;
         display: flex;
         flex-direction: column;
-        font-size: 12px;
+        font-size: 10px;
         margin: 0px;
     }
     .head_content {
@@ -42,8 +43,8 @@
     }
     .head_content h1{
         margin-left: 90px;
-        width: 200px;
-        font-size: 18px;
+        width: 250px;
+        font-size: 20px;
         text-align: center;
         margin-bottom: 20px;
     }
@@ -63,42 +64,59 @@
     }
     .main_content {
         width: auto;
-        height: 700px;
-        margin: 0px;
+        height: 1300px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .box_content {
         width: 300px;
-        height: 500px;
+        height: auto;
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         margin-left:0px ;
         margin-right: 0px;
+        margin-top: 0px;
+        position: relative;
     }
-    .img-box_1, .img-box_2 {
+
+    .img-box_1 {
+        height: 200px;
         width: 200px;
-        height: 100px;
-        margin: 0px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .img-box_2 {
+        width: 200px;
+        height: 200px;
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
     .box_content_2 {
         width: 300px;
-        height: 500px;
+        height: auto;
         display: flex;
         flex-direction: column;
-        margin: 0px;
+        margin-bottom: 30px;
+        margin-left:0px ;
+        margin-right: 0px;
+        margin-top: 30px;
     }
     .first_para, .second_para {
-        width: 320px;
+        width: 300px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: auto;
+        margin-bottom: 30px;
+        text-align: center;
     }
     .first_para h2 , .second_para h2{
         font-size: 12px;
-        width: 100px;
-
         text-align: center;
         margin-left: 100px;
         margin-left: 0px;
@@ -106,9 +124,91 @@
         margin-bottom: 0px;
     }
     .first_para p, .second_para p{
-        width: 200px;
-        margin: 0px;
         font-size: 8px;
+        width: 200px;
+        margin-left: 40px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom:0px ;
         
     }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        height: 700px;
+        width: auto;
+        font-size: 12px;
+        
+    }
+    .left_side {
+        margin-top: 150px;
+        height: 200px;
+        margin-left: 0px;
+        width: 290px;
+    }
+    .midle_1 {
+        margin-top: 0px;
+        margin-left: 0px;
+        height: 90px;
+        width: 290px;
+        display: flex;
+        vertical-align: top;
+        justify-content: flex-start;
+    }
+    .midle_1 p {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        margin-left: 30px;
+        
+    }
+    .right_side {
+        margin-top: 0px;
+        height: 150px;
+        margin-left: 40px;
+        width: 290px;
+    }
+    .right_side  div {
+        margin-left:60px;
+        margin-bottom: 30px;
+    }
+    .copyright {
+        color: white;
+        margin-top: 0px;
+        margin-left: 0px;
+        
+    }
+    .box-modul {
+        width: 300px;
+        height: 150px;
+        box-shadow: 2px 2px 2px 3px rgba(214, 212, 212, 0.084); 
+        left: 0px;
+        margin-top: -100px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        font-family: 'Open Sans', sans-serif;
+        position: absolute;
+        left: 30px;
+    }
+    .box_para {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .box-modul button {
+        margin-top: 10px;
+        width: 200px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-style: none;
+        background-color: hsl(322, 100%, 66%);
+        border-radius: 22px;
+        box-shadow: 2px 2px 2px 2px rgba(207, 172, 197, 0.504);
+        color: white;
+        font-size: 10px;
+    }
+
 }
