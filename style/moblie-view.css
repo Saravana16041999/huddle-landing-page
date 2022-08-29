@@ -1,6 +1,6 @@
 @media screen and (max-width: 425px){
     .head {
-        width: 375px;
+        width: auto;
         margin: 0px;
     }
     .nav-bar{
@@ -192,7 +192,7 @@
         background-color: white;
         font-family: 'Open Sans', sans-serif;
         position: absolute;
-        left: 30px;
+        left: 35px;
     }
     .box_para {
         font-size: 15px;
