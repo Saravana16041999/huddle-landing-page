@@ -193,7 +193,7 @@ position: relative;
     height: 500px;
     background-color: hsl(192, 100%, 9%);
     display: flex;
-    width: auto;
+    width: 1440px;
     font-family: 'Open Sans', sans-serif;
 }
 .left_side {
